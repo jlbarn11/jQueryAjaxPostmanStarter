@@ -1,0 +1,98 @@
+[
+  {
+    "name": "Bubble Gum Pop",
+    "image": "https://www.public.asu.edu/~jlbarn11/GIT414/images/bubbleGumPopCupcake.png",
+    "ingredients": "Flour, Salt, Baking Powder, Butter, extra-fine Sugar, Eggs, Milk, Vanilla Extract, food-coloring, artificial flavoring",
+    "frosting": "Buttercream",
+    "frostingIngredients": "Shortening, Butter, Vanilla, Heavy cream, Powdered sugar, assorted sprinkles, artificial flavoring (orb is made from corn syrup and sugar)",
+    "price": "$5.00 each or $56.00 per dozen"
+  },
+  {
+    "name": "Candy Corn",
+    "image": "https://www.public.asu.edu/~jlbarn11/GIT414/images/candycornCupake.png",
+    "ingredients": "Flour, Salt, Baking Powder, Butter, Sugar, Eggs, Milk, Vanilla Extract, food-coloring, artificial flavoring",
+    "frosting": "Buttercream",
+    "frostingIngredients": "Shortening, Butter, Vanilla, Heavy cream, Powdered sugar, artificial flavoring, topped with a piece of candy corn (sugar, corn syrup, food coloring)",
+    "price": "$3.50 each or $38.00 per dozen"
+  },
+  {
+    "name": "Chocolate Mint Cookie",
+    "image": "https://www.public.asu.edu/~jlbarn11/GIT414/images/chocolateMintCookieCupcake.png",
+    "ingredients": "Flour, Salt, Baking Powder, Butter, Sugar, Eggs, Milk, Vanilla Extract, Cocoa powder, peppermint extract",
+    "frosting": "Buttercream Mint",
+    "frostingIngredients": "Shortening, Butter, Vanilla, Heavy cream, Powdered sugar, food coloring, peppermint extract",
+    "price": "$4.00 each or $44.00 per dozen"
+  },
+  {
+    "name": "Cotton Candy",
+    "image": "https://www.public.asu.edu/~jlbarn11/GIT414/images/cottonCandyCupcake.png",
+    "ingredients": "Flour, Salt, Baking Powder, Butter, extra-fine Sugar, Eggs, Milk, Vanilla Extract",
+    "frosting": "Buttercream",
+    "frostingIngredients": "Shortening, Butter, Vanilla, Heavy cream, Powdered sugar, cotton candy flavoring",
+    "price": "$3.00 each or $32.00 per dozen"
+  },
+  {
+    "name": "Death By Chocolate",
+    "image": "https://www.public.asu.edu/~jlbarn11/GIT414/images/deathByChocolateCupcake.png",
+    "ingredients": "Flour, Salt, Baking Powder, Butter, Sugar, Eggs, Milk, Vanilla Extract, Cocoa powder",
+    "frosting": "Chocolate Buttercream",
+    "frostingIngredients": "Shortening, Butter, Vanilla, Heavy cream, Powdered sugar, Cocoa powder",
+    "price": "$3.00 each or $32.00 per dozen"
+  },
+  {
+    "name": "Key Lime",
+    "image": "https://www.public.asu.edu/~jlbarn11/GIT414/images/keyLimeCupcake.png",
+    "ingredients": "Flour, Salt, Baking Powder, Butter, Sugar, Eggs, Milk, Vanilla Extract, Key Lime Juice",
+    "frosting": "Buttercream",
+    "frostingIngredients": "Shortening, Butter, Vanilla, Heavy cream, Powdered sugar, Brown Sugar sprinkle, Key Lime Zest",
+    "price": "$4.00 each or $44.00 per dozen"
+  },
+  {
+    "name": "Mermaid Sparkle",
+    "image": "https://www.public.asu.edu/~jlbarn11/GIT414/images/mermaidSparklecupcake.png",
+    "ingredients": "Flour, Salt, Baking Powder, Butter, extra-fine Sugar, Eggs, Milk, Vanilla Extract, food-coloring",
+    "frosting": "Buttercream",
+    "frostingIngredients": "Shortening, Butter, Vanilla, Heavy cream, Powdered sugar, assorted sprinkles",
+    "price": "$5.00 each or $56.00 per dozen"
+  },
+  {
+    "name": "Red Velvet",
+    "image": "https://www.public.asu.edu/~jlbarn11/GIT414/images/redVelvetCupcake.png",
+    "ingredients": "Flour, Salt, Baking Powder, Butter, Sugar, Eggs, Milk, Vanilla Extract, Cocoa powder, red food coloring",
+    "frosting": "Cream Cheese",
+    "frostingIngredients": "Cream Cheese, Butter, Vanilla, Heavy cream, Powdered sugar",
+    "price": "$4.00 each or $44.00 per dozen"
+  },
+  {
+    "name": "Strawberry",
+    "image": "https://www.public.asu.edu/~jlbarn11/GIT414/images/strawberryCupcake.png",
+    "ingredients": "Flour, Salt, Baking Powder, Butter, Sugar, Eggs, Milk, Vanilla Extract, Strawberry Puree, Fresh Strawberries",
+    "frosting": "Strawberry Buttercream",
+    "frostingIngredients": "Shortening, Butter, Vanilla, Heavy cream, Powdered sugar, Pureed Strawberries",
+    "price": "$4.50 each or $50.00 per dozen"
+  },
+  {
+    "name": "Toasty S'Mores",
+    "image": "https://www.public.asu.edu/~jlbarn11/GIT414/images/toastySmorescupcake.png",
+    "ingredients": "Flour, Salt, Baking Powder, Butter, Sugar, Eggs, Milk, Vanilla Extract, ginger, cinnamon, cocoa powder",
+    "frosting": "Marshmallow",
+    "frostingIngredients": "Gelatin, corn syrup, sugar, water",
+    "price": "$4.50 each or $50.00 per dozen"
+  },
+  {
+    "name": "Vanilla Bean Dream",
+    "image": "https://www.public.asu.edu/~jlbarn11/GIT414/images/vanillaBeanDream.png",
+    "ingredients": "Flour, Salt, Baking Powder, Butter, Sugar, Eggs, Milk, Vanilla Extract",
+    "frosting": "Buttercream",
+    "frostingIngredients": "Shortening, Butter, Vanilla, Heavy cream, Powdered sugar",
+    "price": "$3.00 each or $32.00 per dozen"
+  },
+  {
+    "name": "Victorian Rose",
+    "image": "https://www.public.asu.edu/~jlbarn11/GIT414/images/victorianRoseCupcake.png",
+    "ingredients": "Flour, Salt, Baking Powder, Butter, extra-fine Sugar, Eggs, Milk, Vanilla Extract, food-coloring, Rose Extract",
+    "frosting": "Rose Buttercream",
+    "frostingIngredients": "Shortening, Butter, Vanilla, Heavy cream, Powdered Sugar, Rose-Extract",
+    "price": "$4.50 each or $50.00 per dozen"
+  }
+]

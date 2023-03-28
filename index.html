@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>jQuery Ajax - Cupcakes</title>
+	<meta name="author" content="Prof. Barnett">
+	<meta name="description" content="Activity for practicing using Postman to create a mock server with multiple endpoints, and the ability to filter and sort the returned data">
+
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;900&display=swap" rel="stylesheet">
+	<link href="https://res.cloudinary.com/dr6lvwubh/raw/upload/v1581441981/Anicons/anicons-regular.css" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="styles.css">
+	<script src="jquery-3.6.0.min.js"></script>
+	<script src="scripts.js" defer></script>
+</head>
+
+<body>
+	<a href="#main-content" id="skip">Skip to Main Content</a>
+	<header>
+		<h1>jQuery Ajax - Cupcakes</h1>
+		<p>This activity uses Postman to practice mocking a server and allowing us to make calls</p>
+		<nav>
+			<div id="menuToggle">
+				<input type="checkbox" name="toggle" id="toggle">
+				<label for="toggle">
+					<span id="menuIcon">A</span>
+				</label>
+				<h2 class="sr-only">Main Navigation</h2>
+				<ul id="menu">
+					<li><a href="#">Home</a></li>
+					<li><a href="index.html">Cupcakes</a></li>
+					<li><a href="#">About</a></li>
+				</ul>
+			</div>
+		</nav>
+	</header>
+	<main id="main-content">
+		<h2>Loading Data from a JSON File on a Server</h2>
+		<div>
+			<label for="filter">Filter Results By Tag:</label>
+			<div class="select">
+				<select name="filter" id="filter">
+					<option value="all">Display All Cupcakes</option>
+					<option value="vanilla">Vanilla</option>
+					<option value="chocolate">Chocolate</option>
+					<option value="candy">Candy</option>
+					<option value="fondant">Fondant</option>
+					<option value="fruit">Fresh Fruit</option>
+					<option value="mint">Mint</option>
+					<option value="buttercream">Buttercream Frosting</option>
+					<option value="choc-buttercream">Chocolate Buttercream Frosting</option>
+					<option value="cream-cheese">Cream Cheese Frosting</option>
+					<option value="marshmallow">Marshmallow Frosting</option>
+				</select>
+				<span class="focus"></span>
+			</div>
+			<button id="alpha" aria-label="sort ascending">
+				<svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-sort-ascending-letters" viewbox="0 0 24 24" stroke-width="1.5" stroke="#ffffff" fill="none" stroke-linecap="round" stroke-linejoin="round">
+					<path stroke="none" d="M0 0h24v24H0z" fill="none" />
+					<path d="M15 10v-5c0 -1.38 .62 -2 2 -2s2 .62 2 2v5m0 -3h-4" />
+					<path d="M19 21h-4l4 -7h-4" />
+					<path d="M4 15l3 3l3 -3" />
+					<path d="M7 6v12" />
+				</svg>
+			</button>
+			<button id="zed" aria-label="sort descending">
+				<svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-sort-descending-letters" viewbox="0 0 24 24" stroke-width="1.5" stroke="#ffffff" fill="none" stroke-linecap="round" stroke-linejoin="round">
+					<path stroke="none" d="M0 0h24v24H0z" fill="none" />
+					<path d="M15 21v-5c0 -1.38 .62 -2 2 -2s2 .62 2 2v5m0 -3h-4" />
+					<path d="M19 10h-4l4 -7h-4" />
+					<path d="M4 15l3 3l3 -3" />
+					<path d="M7 6v12" />
+				</svg>
+			</button>
+		</div>
+		<article id="cupcakes">
+			<h3 class="sr-only">Cupcakes</h3>
+		</article>
+	</main>
+	<footer>
+		<p>Copyright &copy;<span>2021</span> - GIT418 - Prof. Barnett</p>
+	</footer>
+</body>
+
+</html>

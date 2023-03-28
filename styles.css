@@ -1,0 +1,450 @@
+/* 
+	http://meyerweb.com/eric/tools/css/reset/ 
+	v2.0 | 20110126
+	License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* --------------------- GLOBAL STYLES --------------------- */
+:root{
+	--light-gray: #eaeaea;
+	--white: #fff;
+	--dark-gray: #222;
+	--blue: #4f7794;
+	--orange: #de6a0e;
+}
+
+*, *::before, *::after{
+	box-sizing: border-box;
+}
+
+body{
+	line-height: 1.5;
+	box-sizing: border-box;
+	font-family: 'Montserrat', sans-serif;
+	background: var(--light-gray) url("images/diamond_upholstery.png");
+}
+
+#skip{
+	position: absolute;
+	left: -10000px;
+	top: auto;
+	width: 1px;
+	height: 1px;
+	overflow: hidden;
+	color: var(--dark-gray);
+}
+
+#skip:focus{
+	position: static;
+	display: block;
+	padding: 1rem;
+	margin: 8px;
+	width: fit-content;
+	height: auto;
+	outline: 3px solid var(--orange);
+	outline-offset: 2px;
+}
+
+header, main, footer{
+	background-color: var(--white);
+	padding: 1rem 0;
+	width: 100%;
+	max-width: 1200px;
+	margin: 0 auto;
+}
+
+header{
+	display: grid;
+	grid-template-columns: 5fr 1fr;
+	border-bottom: 1px solid var(--light-gray);
+}
+
+header p{
+	grid-column: 1/-1;
+	padding: 0.5rem;
+	max-width: 75ch;
+	margin: 0 auto;
+}
+
+h1, h2, h3, h4, b{
+	text-align: center;
+	font-weight: bold;
+	color: var(--dark-gray);
+}
+
+h1{
+	font-size: 2rem;
+	margin: 1rem 0;
+}
+
+h2{
+	font-size: 1.5rem;
+	margin: 0.5rem 0;
+}
+
+h3, h4{
+	font-size: 1.25rem;
+	margin: 0.45rem 0;
+}
+
+b{
+	font-size: 1.1rem;
+	margin: 0.35rem 0;
+	text-align: left;
+}
+
+nav{
+	width: 100%;
+	grid-row: 1/2;
+	grid-column: 2/-1;
+}
+
+.sr-only {
+	position: absolute;
+	left: -10000px;
+	top: auto;
+	width: 1px;
+	height: 1px;
+	overflow: hidden;
+}
+
+#menuToggle {
+	display: block;
+	position: relative;
+	z-index: 1; 
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+
+#menuToggle a {
+	text-decoration: none;
+	color: var(--white);
+	-webkit-transition: background-color 0.3s ease;
+	-o-transition: background-color 0.3s ease;
+	transition: background-color 0.3s ease;
+	background-color: var(--blue);
+	display: block;
+	padding: 1rem;
+	/* width: calc(100% - 2rem); */
+	font-weight: bold;
+	font-size: 1.2rem;
+	text-align: center;
+}
+
+#menuToggle a:hover {
+	color: var(--blue);
+	background-color: var(--white);
+}
+
+a:focus, a:focus-visible, input:focus + label span, input:focus-visible + label span, #alpha:focus, #alpha:focus-visible, #zed:focus, #zed:focus-visible{
+	outline: 3px solid var(--orange);
+	outline-offset: 2px;
+}
+
+/* The hamburger button hidden inside an input element */
+#menuToggle input {
+	display: block;
+	width: 3rem;
+	height: 3rem;
+	position: absolute;
+	top: 0px;
+	left: 0px;  
+	padding: 0;
+	cursor: pointer;  
+	opacity: 0; /* hide this */
+	z-index: 2; /* and place it over the hamburger */  
+	-webkit-touch-callout: none;
+}
+
+#menuToggle label {
+	position: relative;
+	/* top: 16px; */
+	/* left: 4px; */
+	display: block;
+	height: 3rem;
+	width: 3rem;;
+}
+
+#menuToggle label span {
+	position: relative;
+	z-index: 1;  
+	top: -12px;
+	-webkit-transform-origin: 4px 0px;  
+		-ms-transform-origin: 4px 0px;  
+			transform-origin: 4px 0px;
+	-webkit-transition: all 0.3s ease;
+	-o-transition: all 0.3s ease;
+	transition: all 0.3s ease;
+}
+
+#menuIcon{
+	font-family: "Anicons Regular", sans-serif;
+	font-variation-settings: "TIME" 1;
+	font-size: 3rem;
+	color: var(--dark-gray);
+	transition: font-variation-settings 0.4s ease;
+}
+
+#menuToggle input:checked + label span {
+	color: var(--white);
+	font-variation-settings: "TIME" 100;
+}
+
+/*
+Use absolute positioning to place the menu off-screen
+ */
+#menu{
+	position: absolute;
+	width: 100vw;
+	margin-top: -6rem;
+	padding: 6rem 0 3rem 0;
+	background-color: var(--blue);
+	border-bottom: 1px solid var(--light-gray);
+	right: 105vw;
+	-webkit-transition: right 0.3s ease;
+	-o-transition: right 0.3s ease;
+	transition: right 0.3s ease; 
+}
+
+/*
+Slide the menu in from left when the input is checked
+*/
+#menuToggle input:checked ~ ul {
+	right: 0;
+}
+
+#cupcakes{
+	width: 100%;
+	display: grid;
+	grid-template-columns: repeat(auto-fill, minmax(325px, 1fr));
+	height: fit-content;
+	grid-gap: 1rem;
+	justify-items: center;
+	border: none;
+	color: var(--dark-gray);
+	box-shadow: none;
+}
+
+main div{
+	grid-column: 1/-1;
+	padding: 0 0.5rem;
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: flex-end;
+	gap: 1rem;
+	margin: 1rem auto;
+}
+
+main label{
+	align-self: center;
+	margin-right: 1rem;
+	font-size: 1.1rem;
+	font-weight: bold;
+}
+
+.select{
+	width: 100%;
+	min-width: 270px;
+	max-width: 325px;
+	border: 2px solid var(--dark-gray);
+	padding: 0.7em 0.5em;
+	margin: 0;
+	cursor: pointer;
+	line-height: 1.1;
+	background-color: var(--white);
+	height: auto;
+	font-size: 1.1rem;
+	font-family: 'Montserrat', sans-serif;
+	display: grid;
+	grid-template-areas: "select";
+	align-items: center;
+	position: relative;
+}
+
+.select::after{
+	content: "";
+	width: 0.8em;
+	height: 0.5em;
+	background-color: var(--blue);
+	clip-path: polygon(100% 0%, 0 0%, 50% 100%);
+}
+
+select{
+	appearance: none;
+	background-color: transparent;
+	border: none;
+	padding: 0 1em 0 0 ;
+	margin: 0;
+	width: 100%;
+	height: 1.5rem;
+	font-family: inherit;
+	font-size: 1.1rem;
+	cursor: inherit;
+	line-height: inherit;
+	outline: none;
+	grid-area: select;
+}
+
+select, .select::after{
+	grid-area: select;
+}
+
+.select::after{
+	justify-self: end;
+}
+
+select::-ms-expand{
+	display: none;
+}
+
+.focus{
+	display: none;
+}
+
+select:focus + .focus{
+	display: block;
+	position: absolute;
+	top: -1px;
+	left: -1px;
+	right: -1px;
+	bottom: -1px;
+	border: 3px solid var(--orange);
+}
+
+button{
+	display: block;
+	background-color: var(--blue);
+	color: var(--white);
+	padding: 0.5rem;
+	margin: 0 0.5rem;
+	outline: none;
+	border: none;
+	box-shadow: 3px 3px 3px var(--light-gray);
+	font-size: 1.2rem;
+	width: 3rem;
+	height: 3rem;
+}
+
+button:disabled{
+	filter: opacity(0.5);
+}
+
+section{
+	width: calc(100% - 2rem);
+	max-width: 400px;
+	padding: 1rem;
+	margin: 0 auto;
+	border: 1px solid var(--light-gray);
+	box-shadow: 5px 3px 5px var(--light-gray);
+}
+
+img{
+	display: block;
+	margin: 0 auto;
+	width: 100%;
+	max-width: 320px;
+}
+
+footer{
+	text-align: center;
+	font-size: 1.1rem;
+	padding: 1rem;
+	color: var(--dark-gray);
+	border-top: 1px solid var(--light-gray);
+}
+
+@media screen and (min-width: 425px){
+	header, main, footer{
+		padding: 1rem;
+		width: calc(100% - 3rem);
+	}
+}
+
+@media screen and (min-width: 700px){
+	header{
+		grid-template-columns: 1fr 1fr;
+	}
+
+	h1{
+		grid-column: 1/-1;
+	}
+
+	nav{
+		grid-column: 1/-1;
+		grid-row: 3/4;
+		max-width: 775px;
+		margin: 0 auto;
+	}
+
+	#menuToggle input, #menuToggle label{
+		display: none;
+	}
+
+	#menu{
+		background-color: var(--white);
+		display: grid;
+		grid-template-columns: 1fr 1fr 1fr;
+		gap: 0.5rem;
+		position: static;
+		margin: 0;
+		padding: 1rem;
+		width: calc(100% - 2rem);
+		border: none;
+	}
+	#menuToggle a{
+		border: 4px solid var(--blue);
+	}
+
+	#menuToggle a:hover{
+		border-color: var(--blue);
+		background-color: var(--white);
+		color: var(--dark-gray);
+	}
+}
