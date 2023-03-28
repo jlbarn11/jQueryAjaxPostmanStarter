@@ -2,97 +2,145 @@
   {
     "name": "Bubble Gum Pop",
     "image": "https://www.public.asu.edu/~jlbarn11/GIT414/images/bubbleGumPopCupcake.png",
+    "alt": "Pink cupcake covered in sprinkles and topped with a sugar orb",
     "ingredients": "Flour, Salt, Baking Powder, Butter, extra-fine Sugar, Eggs, Milk, Vanilla Extract, food-coloring, artificial flavoring",
     "frosting": "Buttercream",
     "frostingIngredients": "Shortening, Butter, Vanilla, Heavy cream, Powdered sugar, assorted sprinkles, artificial flavoring (orb is made from corn syrup and sugar)",
-    "price": "$5.00 each or $56.00 per dozen"
+    "price": "$5.00 each or $56.00 per dozen",
+    "tags": [
+      "vanilla", "candy", "buttercream"
+    ]
   },
   {
     "name": "Candy Corn",
     "image": "https://www.public.asu.edu/~jlbarn11/GIT414/images/candycornCupake.png",
+    "alt": "orange and yellow cupcake frosted in white with sprinkles and a piece of candy corn on top",
     "ingredients": "Flour, Salt, Baking Powder, Butter, Sugar, Eggs, Milk, Vanilla Extract, food-coloring, artificial flavoring",
     "frosting": "Buttercream",
     "frostingIngredients": "Shortening, Butter, Vanilla, Heavy cream, Powdered sugar, artificial flavoring, topped with a piece of candy corn (sugar, corn syrup, food coloring)",
-    "price": "$3.50 each or $38.00 per dozen"
+    "price": "$3.50 each or $38.00 per dozen",
+    "tags": [
+      "vanilla", "candy", "buttercream"
+    ]
   },
   {
     "name": "Chocolate Mint Cookie",
     "image": "https://www.public.asu.edu/~jlbarn11/GIT414/images/chocolateMintCookieCupcake.png",
+    "alt": "Chocolate cupcakes with mint green icing and half a chocolate dipped cookie on top",
     "ingredients": "Flour, Salt, Baking Powder, Butter, Sugar, Eggs, Milk, Vanilla Extract, Cocoa powder, peppermint extract",
     "frosting": "Buttercream Mint",
     "frostingIngredients": "Shortening, Butter, Vanilla, Heavy cream, Powdered sugar, food coloring, peppermint extract",
-    "price": "$4.00 each or $44.00 per dozen"
+    "price": "$4.00 each or $44.00 per dozen",
+    "tags": [
+      "chocolate", "buttercream", "mint"
+    ]
   },
   {
     "name": "Cotton Candy",
     "image": "https://www.public.asu.edu/~jlbarn11/GIT414/images/cottonCandyCupcake.png",
+    "alt": "White cupcakes frosted in light green icing with pink sprinkles",
     "ingredients": "Flour, Salt, Baking Powder, Butter, extra-fine Sugar, Eggs, Milk, Vanilla Extract",
     "frosting": "Buttercream",
     "frostingIngredients": "Shortening, Butter, Vanilla, Heavy cream, Powdered sugar, cotton candy flavoring",
-    "price": "$3.00 each or $32.00 per dozen"
+    "price": "$3.00 each or $32.00 per dozen",
+    "tags": [
+      "vanilla", "candy", "buttercream"
+    ]
   },
   {
     "name": "Death By Chocolate",
     "image": "https://www.public.asu.edu/~jlbarn11/GIT414/images/deathByChocolateCupcake.png",
+    "alt": "Chocolate cupcakes with chocolate icing. The center cupcake has a lit sparkler in it",
     "ingredients": "Flour, Salt, Baking Powder, Butter, Sugar, Eggs, Milk, Vanilla Extract, Cocoa powder",
     "frosting": "Chocolate Buttercream",
     "frostingIngredients": "Shortening, Butter, Vanilla, Heavy cream, Powdered sugar, Cocoa powder",
-    "price": "$3.00 each or $32.00 per dozen"
+    "price": "$3.00 each or $32.00 per dozen",
+    "tags": [
+      "chocolate", "vanilla", "choc-buttercream"
+    ]
   },
   {
     "name": "Key Lime",
     "image": "https://www.public.asu.edu/~jlbarn11/GIT414/images/keyLimeCupcake.png",
+    "alt": "Lime cupcakes frosted in white icing with graham cracker crumbs around the middle and a thin slice of lime on top",
     "ingredients": "Flour, Salt, Baking Powder, Butter, Sugar, Eggs, Milk, Vanilla Extract, Key Lime Juice",
     "frosting": "Buttercream",
     "frostingIngredients": "Shortening, Butter, Vanilla, Heavy cream, Powdered sugar, Brown Sugar sprinkle, Key Lime Zest",
-    "price": "$4.00 each or $44.00 per dozen"
+    "price": "$4.00 each or $44.00 per dozen",
+    "tags": [
+      "vanilla", "fruit", "buttercream"
+    ]
   },
   {
     "name": "Mermaid Sparkle",
     "image": "https://www.public.asu.edu/~jlbarn11/GIT414/images/mermaidSparklecupcake.png",
+    "alt": "Pink and blue cupcake frosted in light blue icing with rainbow sprinkles and a sculpted, shimmering fondant mermaid tail on top",
     "ingredients": "Flour, Salt, Baking Powder, Butter, extra-fine Sugar, Eggs, Milk, Vanilla Extract, food-coloring",
     "frosting": "Buttercream",
     "frostingIngredients": "Shortening, Butter, Vanilla, Heavy cream, Powdered sugar, assorted sprinkles",
-    "price": "$5.00 each or $56.00 per dozen"
+    "price": "$5.00 each or $56.00 per dozen",
+    "tags": [
+      "vanilla", "fondant", "buttercream"
+    ]
   },
   {
     "name": "Red Velvet",
     "image": "https://www.public.asu.edu/~jlbarn11/GIT414/images/redVelvetCupcake.png",
+    "alt" : "Red cupcake frosted with white frosting and sprinkled with red cake crumbs",
     "ingredients": "Flour, Salt, Baking Powder, Butter, Sugar, Eggs, Milk, Vanilla Extract, Cocoa powder, red food coloring",
     "frosting": "Cream Cheese",
     "frostingIngredients": "Cream Cheese, Butter, Vanilla, Heavy cream, Powdered sugar",
-    "price": "$4.00 each or $44.00 per dozen"
+    "price": "$4.00 each or $44.00 per dozen",
+    "tags": [
+      "vanilla", "cream-cheese"
+    ]
   },
   {
     "name": "Strawberry",
     "image": "https://www.public.asu.edu/~jlbarn11/GIT414/images/strawberryCupcake.png",
+    "alt": "Red and white cupcake frosted in white and covered in blueberries and sliced strawberries",
     "ingredients": "Flour, Salt, Baking Powder, Butter, Sugar, Eggs, Milk, Vanilla Extract, Strawberry Puree, Fresh Strawberries",
     "frosting": "Strawberry Buttercream",
     "frostingIngredients": "Shortening, Butter, Vanilla, Heavy cream, Powdered sugar, Pureed Strawberries",
-    "price": "$4.50 each or $50.00 per dozen"
+    "price": "$4.50 each or $50.00 per dozen",
+    "tags": [
+      "vanilla", "fruit", "buttercream"
+    ]
   },
   {
     "name": "Toasty S'Mores",
     "image": "https://www.public.asu.edu/~jlbarn11/GIT414/images/toastySmorescupcake.png",
+    "alt": "Chocolate cupcake topped with a toasted marshmallow frosting and topped with a small piece of chocolate",
     "ingredients": "Flour, Salt, Baking Powder, Butter, Sugar, Eggs, Milk, Vanilla Extract, ginger, cinnamon, cocoa powder",
     "frosting": "Marshmallow",
     "frostingIngredients": "Gelatin, corn syrup, sugar, water",
-    "price": "$4.50 each or $50.00 per dozen"
+    "price": "$4.50 each or $50.00 per dozen",
+    "tags": [
+      "chocolate", "candy", "marshmallow"
+    ]
   },
   {
     "name": "Vanilla Bean Dream",
     "image": "https://www.public.asu.edu/~jlbarn11/GIT414/images/vanillaBeanDream.png",
+    "alt": "Golden brown cupcake topped with pink frosting and a darker pink fondant rose in a blue and pink rose wrapper",
     "ingredients": "Flour, Salt, Baking Powder, Butter, Sugar, Eggs, Milk, Vanilla Extract",
     "frosting": "Buttercream",
     "frostingIngredients": "Shortening, Butter, Vanilla, Heavy cream, Powdered sugar",
-    "price": "$3.00 each or $32.00 per dozen"
+    "price": "$3.00 each or $32.00 per dozen",
+    "tags": [
+      "vanilla", "buttercream"
+    ]
   },
   {
     "name": "Victorian Rose",
     "image": "https://www.public.asu.edu/~jlbarn11/GIT414/images/victorianRoseCupcake.png",
+    "alt": "White cupcake topped with frosting flecked with vanilla beans and covered in small rainbow nonpareils",
     "ingredients": "Flour, Salt, Baking Powder, Butter, extra-fine Sugar, Eggs, Milk, Vanilla Extract, food-coloring, Rose Extract",
     "frosting": "Rose Buttercream",
     "frostingIngredients": "Shortening, Butter, Vanilla, Heavy cream, Powdered Sugar, Rose-Extract",
-    "price": "$4.50 each or $50.00 per dozen"
+    "price": "$4.50 each or $50.00 per dozen",
+    "tags": [
+      "vanilla", "fondant", "buttercream"
+    ]
   }
 ]
